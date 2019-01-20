@@ -1,4 +1,3 @@
-
 """
 Задача проекта Эйлера
 https://projecteuler.net/problem=1
