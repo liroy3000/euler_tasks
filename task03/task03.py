@@ -10,6 +10,9 @@ import math
 integer = 600851475143
 
 def isprime(i):
+	"""
+	Функция проверяет, является ли входное число простым
+	"""
 	limit = math.ceil(math.sqrt(i))
 	result = True
 	for j in range(2, limit):
@@ -19,10 +22,10 @@ def isprime(i):
 	return result
 
 
-
 for i in range(2, integer):
 	if integer % i == 0:
 		delimeter = integer / i
+		print(delimeter)
 		if isprime(delimeter):
 			max_delimeter = delimeter
 			break
