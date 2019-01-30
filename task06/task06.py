@@ -1,6 +1,6 @@
 """
 Задача проекта Эйлера
-https://projecteuler.net/problem=5
+https://projecteuler.net/problem=6
 
 Сумма квадратов первых десяти натуральных чисел равна
 
